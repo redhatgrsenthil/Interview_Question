@@ -93,10 +93,12 @@ Ref: [tecmint](#http://www.tecmint.com/basic-linux-interview-questions-and-answe
   * ls
   * vi ifcfg-eth0
   * add the below concate
+
 ```
      IPADDR=172.24.40.40
      GATEWAY=172.24.40.1
-     DNS1=172.24.40.1 ```
+     DNS1=172.24.40.1 
+```
 
 2.  For hostname
   * vim /etc/sysconfig/network
