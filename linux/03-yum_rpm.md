@@ -105,12 +105,11 @@ To Update ``` yum update nano ``` and  ``` yum groupupdate 'haskell'```
     
 4.	Create the .repo file at the location /etc/yum.repos.d simply as 
 
-``` cd /etc/yum.repos.d && <<EOF >> abc.repo  
-	[local-installation]name=yum-local
-    baseurl = file:///homw/$USER/rpm
-    enabled =1
-    gpgcheck =1 
-    EOF
-```
+``` cd /etc/yum.repos.d && <<EOF >> abc.repo  ```
+``` [local-installation]name=yum-local ```
+``` baseurl = file:///homw/$USER/rpm ```
+``` enabled =1```
+```gpgcheck =1 ```
+```   EOF```
     	
     
